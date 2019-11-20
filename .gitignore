@@ -1,4 +1,5 @@
 Cohen_Spread_Sheet_Wrapper.egg-info/
+.vscode
 cssw/__pycache__/
 dist/
 build/
