@@ -28,7 +28,7 @@ class CohenSpreadSheet:
     def get_food_by_food_family(self, food_family) -> list:
         return [self.leaf.cell_value(food, 0) for food in range(*food_family.value)]
 
-    def get_nutriment_by_food_family(self) -> list:
+    def get_nutriment_by_food_family(self, nutriment, food_family) -> list:
         nutriment_by_food = []
 
         for food_position in range(*food_family.value):
