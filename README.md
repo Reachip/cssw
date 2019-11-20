@@ -4,18 +4,9 @@
 
 "Wrapper" du tableau Excel du Docteur Jean-Michel Cohen référencent les différentes quantités de nutriments que contient un aliment classés par famille d'aliments.
 
-**Auteur :** Rached Mejri
-**Licence :** MIT
-**Versions de Python supportés :** 3.X
-
 :uk:
 
 A wrapper to use the spread sheet of Dr. Jean-Michel Cohen concerning nutrition nutriments quantity per food family.
-
-
-**Author :** Rached Mejri
-**Licence :** MIT
-**Versions of Python supported :** 3.X
 
 # Example :uk: | Exemple :fr:
 
