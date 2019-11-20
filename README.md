@@ -11,14 +11,14 @@ A wrapper to use the spread sheet of Dr. Jean-Michel Cohen concerning nutrition 
 # Example :uk: | Exemple :fr:
 
 ```python
-from cssw.sheet import CohenSpreadSheet
-from cssw.food import CohenSpreadSheetFoodFamily
-from cssw.nutriment import CohenSpreadSheetNutriment
+from cssw import CohenSpreadSheet
+from cssw import CohenSpreadSheetFoodFamily
+from cssw import CohenSpreadSheetNutriment
 
 spread_sheet = CohenSpreadSheet()
 
 CALORIES = CohenSpreadSheetNutriment.CALORIES
-RED_MEAT = CohenSpreadSheetFoodFamily.REDMET
+RED_MEAT = CohenSpreadSheetFoodFamily.REDMEAT
 
 calories_into_red_meat = spread_sheet.get_nutriment_by_food_family(CALORIES, RED_MEAT)
 print(calories_into_red_meat)
