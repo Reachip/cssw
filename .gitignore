@@ -4,3 +4,4 @@ cssw/__pycache__/
 dist/
 build/
 venv/
+poetry.lock
