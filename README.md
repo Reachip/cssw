@@ -12,23 +12,17 @@ A wrapper to use the spread sheet of Dr. Jean-Michel Cohen concerning nutrition 
 
 ```python
 from cssw import CohenSpreadSheet
-from cssw import CohenSpreadSheetFoodFamily
-from cssw import CohenSpreadSheetNutriment
+from cssw import Food
+from cssw import Nutriment
 
-spread_sheet = CohenSpreadSheet()
-
-CALORIES = CohenSpreadSheetNutriment.CALORIES
-RED_MEAT = CohenSpreadSheetFoodFamily.REDMEAT
-
-calories_into_red_meat = spread_sheet.get_nutriment_by_food_family(CALORIES, RED_MEAT)
+sheet = CohenSpreadSheet()
+calories_into_red_meat = sheet.get_nutriment_by_food_family(Nutriment.CALORIES, Food.EGGANDMILK)
 print(calories_into_red_meat)
 ```
 
 # Installation 
 
 ```bash
-python setup.py bdist_egg
-easy_install dist/Cohen_Spread_Sheet_Wrapper-0.1-py3.7.egg
-
-python -c "import cssw"
+# With Poetry package manager
+poetry build
 ```
