@@ -1,3 +1,3 @@
 from .sheet import CohenSpreadSheet
-from .food import CohenSpreadSheetFoodFamily
-from .nutriment import CohenSpreadSheetNutriment
+from .food import Food
+from .nutriment import Nutriment
