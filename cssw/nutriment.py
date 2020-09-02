@@ -1,7 +1,7 @@
 import enum
 
 
-class CohenSpreadSheetNutriment(enum.Enum):
+class Nutriment(enum.Enum):
     CALORIES = 1
     WATER = 2
     PROTEIN = 3

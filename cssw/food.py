@@ -1,7 +1,7 @@
 import enum
 
 
-class CohenSpreadSheetFoodFamily(enum.Enum):
+class Food(enum.Enum):
     REDMEAT = (6, 12)
     WHITEMEAT = (14, 17)
     DELICATESSEN = (18, 23)
